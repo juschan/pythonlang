@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-plot.scatter(2,4, s=200)
+plt.scatter(2,4, s=200)
 
 plt.title("Square Numbers", fontsize=24)
 plt.xlabel("Value", fontsize=14)
