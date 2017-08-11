@@ -1,0 +1,31 @@
+Instructions for creating the Django project
+
+Create a new folder: 
+mkdir learning_log
+
+install virtualenv and run
+pip install --user virtualenv
+virtualenv ll_env
+
+if already installed, then run virtual environment commands:
+python -m venv ll_env 
+
+activate virtual env:
+ll_env/scripts/activate
+
+to deactivate:
+deactivate 
+
+install Django:
+pip install Django
+
+create Django project:
+django-admin.py startproject learning log .
+ls
+ls learning_log
+
+create database:
+python manage.py migrate
+
+view project
+python manage.py runserver 
