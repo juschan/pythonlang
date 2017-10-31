@@ -22,5 +22,5 @@ hist.title="Results of rolling one D6 1000 times"
 hist.x_title="Result"
 hist.y_title="Frequency of Result"
 hist.add('D6', freq)
-hist.x_labels = map(str, range(1, 6))
+hist.x_labels = map(str, range(1, 7))
 hist.render_to_file('die_visual.svg')
